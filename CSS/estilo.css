@@ -1,0 +1,32 @@
+
+form{
+    width: 60%;
+    margin:100px auto;
+    padding: 5em;
+    border: 1px solid black;
+    height: 700px;
+}
+tr{
+    
+    
+ font-size:25px;
+}
+
+input{
+   
+    width: 700px;
+    height: 30px;
+}
+
+
+input:invalid {
+    border: 2px dashed red;
+  }
+  
+  input:invalid:required {
+   
+  }
+  
+  input:valid {
+    border: 2px solid black;
+  }
